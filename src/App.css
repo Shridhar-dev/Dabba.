@@ -12,6 +12,51 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.choose{
+  transition: 0.5s;
+  height: 100vh;
+}
+a,a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.choose:hover{
+  transform:  scale(1.2);
+}
+.star{
+  filter: grayscale(100%);
+}
+.star-1:hover{
+  filter: grayscale(0%);
+}
+.star-1:hover ~ .star{
+  filter: grayscale(0%);
+}
+.star-2:hover ~ .star{
+  filter: grayscale(0%);
+}.star-3:hover ~ .star{
+  filter: grayscale(0%);
+}
+.star-4:hover ~ .star{
+  filter: grayscale(0%);
+}
+.star-2:hover{
+  filter: grayscale(0%);
+}
+.star-3:hover{
+  filter: grayscale(0%);
+}
+.star-4:hover{
+  filter: grayscale(0%);
+}
+.star-5:hover{
+  filter: grayscale(0%);
+}
+@media only screen and (max-width: 768px) {
+  .choose{
+    height: 50vh;
+  }
+}
 
 .App-header {
   background-color: #282c34;
