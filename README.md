@@ -10,9 +10,8 @@ These are the frameworks and libraries used in this project
 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
-- [Sweet Alert 2](https://sweetalert2.github.io/)
-- [Material UI](https://material-ui.com/)
-- [DraftJS](https://draftjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+
 
 > Live at: [Dabba](https://littlebrocolli-783c0.firebaseapp.com/)
 
