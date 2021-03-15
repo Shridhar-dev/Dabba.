@@ -28,7 +28,7 @@ function Main() {
   }}
       const context = useContext(User)
     return (
-        <div>
+        <div style={{maxWidth:'100vw',overflow:'hidden'}}>
             {wertemon()}
             <BrowserRouter>
             <Switch>
